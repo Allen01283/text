@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>输出和输入</title>
+</head>
+<body>
+    <!-- 输出 -->
+    <!-- 第一种 document.write -->
+    <script>
+        document.write("JavaScript 我来了！")
+    </script>
+
+    <!-- 第二种 alert -->
+    <script>
+         alert("你好 JS")
+    </script>
+
+    <!-- 第三种 console.log -->
+    <script>
+        console.log("它~会魔法吧~")
+    </script>
+
+
+    <!-- 输入 -->
+    <!-- 第一种  prompt -->
+    <script>
+        let name;
+    do {
+        name = prompt("请输入你的姓名");
+        if (name === "admin") {
+            alert("登录成功！");
+        } else {
+            alert("登录失败!");
+        }
+    } while (name !== "admin");
+
+    //    let name = prompt("请输入你的姓名")
+    //     if(name === "admin"){
+    //         alert("登录成功！")
+    //     }else{
+    //         alert("登录失败!")
+
+    //     }
+    </script>
+</body>
+</html>
